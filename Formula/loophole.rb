@@ -1,26 +1,26 @@
 class Loophole < Formula
   desc "Open-source AI coding agent for the terminal"
   homepage "https://github.com/loophole-ai/loophole-app"
-  version "1.0.6"
+  version "1.0.7"
   license "AGPL-3.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/loophole-ai/cli/releases/download/v1.0.6/loophole-darwin-arm64.zip"
-      sha256 "d683b48d46609b6e640929cdae96faf5e4fb01466a92ed0cd568b85b09da7af2"
+      url "https://github.com/loophole-ai/cli/releases/download/v1.0.7/loophole-darwin-arm64.zip"
+      sha256 "bfab740ce41667974bffd4e63cefe71135817f3221c7dfff1e173dd6da71f2e3"
     else
-      url "https://github.com/loophole-ai/cli/releases/download/v1.0.6/loophole-darwin-x64-baseline.zip"
-      sha256 "7ab4745f91a632157c0f571f9dfbb07b077202d1c26ba8a0b92c7254f52cbbda"
+      url "https://github.com/loophole-ai/cli/releases/download/v1.0.7/loophole-darwin-x64-baseline.zip"
+      sha256 "427530f0583f024ad5cab5977ee72a05983823f008e56d0b95bc814505e11385"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/loophole-ai/cli/releases/download/v1.0.6/loophole-linux-arm64.tar.gz"
-      sha256 "b9ea2eb020b1ca9b9afee9f09ff1f404c9fff3151fa3980b61a72ef7c88d2367"
+      url "https://github.com/loophole-ai/cli/releases/download/v1.0.7/loophole-linux-arm64.tar.gz"
+      sha256 "2bce0a53421a2f7a5c6fe60ae364905c187c7a250553091a269e92e261d3bae5"
     else
-      url "https://github.com/loophole-ai/cli/releases/download/v1.0.6/loophole-linux-x64-baseline.tar.gz"
-      sha256 "4b583dc2252f1cab16ef83942fa73ae537405fbf862fd2aaa45a8a3c4ebeb9ff"
+      url "https://github.com/loophole-ai/cli/releases/download/v1.0.7/loophole-linux-x64-baseline.tar.gz"
+      sha256 "07d8b5ce025503490acc4699cf077078cda7b879dc20d2633e1a4ba2c92aa804"
     end
   end
 

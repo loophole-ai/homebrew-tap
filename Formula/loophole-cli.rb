@@ -1,26 +1,26 @@
 class LoopholeCli < Formula
   desc "AI coding agent for the terminal"
   homepage "https://github.com/loophole-ai/cli"
-  version "1.1.2"
+  version "1.1.3"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-arm64/-/cli-darwin-arm64-1.1.2.tgz"
-      sha256 "c9966f7bd01170d356c8edcbce90825e97b6b23fd171a4b8d30d17bca71f7a61"
+      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-arm64/-/cli-darwin-arm64-1.1.3.tgz"
+      sha256 "4df3bfbdc1591d0a2d116b9770771cdb0d49881560d2f3bb7931576402f55518"
     else
-      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-x64-baseline/-/cli-darwin-x64-baseline-1.1.2.tgz"
-      sha256 "e693828e6b0274392408b09eb99a0861ef507e1c747ca6c7b5d528666b1b0441"
+      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-x64-baseline/-/cli-darwin-x64-baseline-1.1.3.tgz"
+      sha256 "5bcf821beb89783cf8681666f9f378dc7beaff1db3e2fd9558e1332530e0ed29"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://registry.npmjs.org/@loophole-ai/cli-linux-arm64/-/cli-linux-arm64-1.1.2.tgz"
-      sha256 "41102649682d2715be813474d01cc0132b76511ded10a998468a2787b169caa2"
+      url "https://registry.npmjs.org/@loophole-ai/cli-linux-arm64/-/cli-linux-arm64-1.1.3.tgz"
+      sha256 "f9d195e568ca3d1eb40c30c8b5791a636d027cc1392dda2b26986cd7b4c1804f"
     else
-      url "https://registry.npmjs.org/@loophole-ai/cli-linux-x64-baseline/-/cli-linux-x64-baseline-1.1.2.tgz"
-      sha256 "ed3b031dc2a6e340ec044789515744fbd70e1085aaae7bd39e734eca83214fa2"
+      url "https://registry.npmjs.org/@loophole-ai/cli-linux-x64-baseline/-/cli-linux-x64-baseline-1.1.3.tgz"
+      sha256 "7cd8c08f0d9059dfe6c8847ae3adf891ef1f270c2a10d090b6473f542a04cc82"
     end
   end
 

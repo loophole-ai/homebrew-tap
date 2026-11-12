@@ -6,21 +6,21 @@ class LoopholeCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/loophole-ai/cli/releases/download/v1.1.6/loophole-cli-darwin-arm64.zip"
-      sha256 "8d14c47bc8c355e4e8fd8cbaa577c013b44880bb337c9ffe6c4bfcf1de7a9372"
+      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-arm64/-/cli-darwin-arm64-1.1.6.tgz"
+      sha256 "e09104ce61e0614040e395988d46a4c100158a13c849a0a533d3412ae794ed02"
     else
-      url "https://github.com/loophole-ai/cli/releases/download/v1.1.6/loophole-cli-darwin-x64-baseline.zip"
-      sha256 "6c45f65a17197300de5845bc5f56b5e5dd0d779505e79010b275e6d05d2ed48d"
+      url "https://registry.npmjs.org/@loophole-ai/cli-darwin-x64-baseline/-/cli-darwin-x64-baseline-1.1.6.tgz"
+      sha256 "bc9d6113afb8c7a8ef8a6ef3283330727dfb5b2a05ab4001e52c604097532839"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/loophole-ai/cli/releases/download/v1.1.6/loophole-cli-linux-arm64.tar.gz"
-      sha256 "e7327c204b61415361504932ecfd2cc09f789c7cf5ea34f037948d49259ea832"
+      url "https://registry.npmjs.org/@loophole-ai/cli-linux-arm64/-/cli-linux-arm64-1.1.6.tgz"
+      sha256 "a77aecfafe81293403c4d5c5e7a026ea6c3edd2d0ee11511feaf7f676e9b2f77"
     else
-      url "https://github.com/loophole-ai/cli/releases/download/v1.1.6/loophole-cli-linux-x64-baseline.tar.gz"
-      sha256 "f4ac5afbf7337ea029d05e7c1948c2b0e7b1a3361c04652ba152b959b5498b8c"
+      url "https://registry.npmjs.org/@loophole-ai/cli-linux-x64-baseline/-/cli-linux-x64-baseline-1.1.6.tgz"
+      sha256 "4ca67b1262d6b8710a5d668acc257f7bbcd0907601314f417b25b62d49d6b476"
     end
   end
 
